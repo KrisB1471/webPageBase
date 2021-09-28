@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <title>`substitute(Filename('', 'Page Title'), '^.', '\u&', '')`</title>
+  <link rel="stylesheet" href="style.css">
+</head>  
+<body>
+  <div class="container">
+    <div class="navbar">
+      <img src="images/r_project_logo_icon_169810.png" class="navbar-projectsIcon">
+      <nav>
+        <ul id="menuList">
+          <li><a href="">Overview</a></li>
+          <li><a href="">Project 1</a></li>
+          <li><a href="">Project 2</a></li>
+          <li><a href="">Archive</a></li>
+        </ul>
+      </nav>
+      <img src="images/menu-icon.png" class="navbar-menuIcon" onclick="togglemenu()">
+    </div>
+    
+    <div class="row">
+      <div class="col-1">
+        <h2>Example<br>Title</h2>
+        <h3>Example Subtitle</h3>
+        <p>Example Text</p>
+        <h4>Example Sub-subtitle</h4>
+        <button type="button">Go To<img src="images/pngfind.com-arrow-png-transparent-161790.png">
+        </button>
+      </div>
+      <div class="col-2">
+        <img src="images/brand_r_project_icon_158745.png" class="Rlogo">
+        <div class="color-box"></div>
+        <div class="button2">
+          <img src="images/pngfind.com-arrow-png-transparent-161790.png">
+          <p><small>Click</small></p>
+        </div>
+      </div>
+    </div>
+  <div class="social-links">
+    <img src="images/kisspng-scalable-vector-graphics-github-computer-icons-log-github-brand-octacat-social-svg-png-icon-free-down-5ba35d7e0d5bb4.0780233915374329580547(1).png">
+    <img src="images/linkedin_clipart3041379.png">
+  </div> 
+</div>
+  <script>
+
+  var menuList = document.getElementById("menuList");
+  
+  menuList.style.maxHeight = "0px";
+  
+  function togglemenu(){
+    
+    if(menuList.style.maxHeight == "0px")
+        {
+            menuList.style.maxHeight = "130px";
+        }
+    else
+        {
+            menuList.style.maxHeight = "0px";
+        }
+  }
+  
+  </script>
+</body>
+</html>
